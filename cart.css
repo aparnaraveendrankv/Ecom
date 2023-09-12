@@ -1,0 +1,22 @@
+/* cart.css */
+.payment {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.payTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.payInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cardIcons img {
+  max-width: 50px;
+  margin-right: 10px;
+}

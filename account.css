@@ -1,0 +1,74 @@
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin: 15px 0;
+  }
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .cancelbtn {
+    background-color: #3e3736;
+    float: left;
+    width: 50%;
+  }
+  
+  .signupbtn {
+    background-color:rgba(0, 0, 0, 0.679);
+    float: right;
+    width: 50%;
+  }
+  
+  .cancelbtn,
+  .signupbtn {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cancelbtn:hover,
+  .signupbtn:hover {
+    opacity: 0.8;
+  }
+  
